@@ -81,3 +81,29 @@ Run node 2:
 Note that you will need to enter the enode address of node1 after --bootnodes.  This allows node 2 to find node1 as a peer in the network.  As with node 1, enter the node 2 account password in the ensuing log to unlock the node.  A similar 'unlock' confirmation message should appear.
 
 
+## MyCrypto Wallet 
+
+Access wallet:
+
+
+![access wallet](Screenshots/mycrypto_node1_keystore_wallet.png)
+
+Make sure to navigate to the keystore directory for node1.  Use the password you used to set up the node in puppeth.
+
+
+
+Set up custom node:
+
+![custom node](Screenshots/mycrypto_set_up_custom_node.png)
+
+For Node Name, use the name of the network you created in puppeth.  For URL, use 'http://127.0.0.1:8545'. Save this node and connect to it under the Ethereum network.
+
+
+
+Once connected, you should see a large account balance.  Now it is time to make a transaction.  Use the address of node2 and enter into the To Address field and select the amount of ETH to transfer.
+
+![create transaction](Screenshots/mycrypto_create_transaction.png)
+
+Hit Send Transaction.  You will be asked to confirm transaction.  Hit send again, and the transaction is complete.
+
+![confirm transaction](Screenshots/mycrypto_confirm_transaction.png)
