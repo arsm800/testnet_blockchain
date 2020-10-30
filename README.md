@@ -61,3 +61,23 @@ Note that the genesis network .json file is passed through as a parameter of the
 
 
 ## Run Nodes (Proof of Authority)
+
+Run node 1:
+
+![node_1 run](Screenshots/node1_run.png)
+
+The following log is created:
+
+![node_1 run log](Screenshots/node1_run_response.png)
+
+While the log is running, make sure to enter the password set up when creating the node.  This will unlock the account.
+
+![node_1_unlock](Screenshots/node_account_unlocked_confirm.png)
+
+Run node 2:
+
+![node_2](Screenshots/node2_run.png)
+
+Note that you will need to enter the enode address of node1 after --bootnodes.  This allows node 2 to find node1 as a peer in the network.  As with node 1, enter the node 2 account password in the ensuing log to unlock the node.  A similar 'unlock' confirmation message should appear.
+
+
