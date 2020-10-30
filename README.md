@@ -38,3 +38,26 @@ Run puppeth again and choose 'Manage existing genesis'.  This is the genesis blo
 
 This action creates .json files.  You will need the [your-network-name].json file to initial the nodes in the next step.
 
+## Initialize Nodes
+
+Initialize node 1:
+
+![node_1 init](Screenshots/node1_initialize.png)
+
+The following log is returned:
+
+![node_1 init log](Screenshots/node1_initialize_response.png)
+
+
+Initialize node 2:
+
+![node_2](Screenshots/node2_initialize.png)
+
+The following log is returned:
+
+![node_2 log](Screenshots/node2_initialize_response.png)
+
+Note that the genesis network .json file is passed through as a parameter of the init command.
+
+
+## Run Nodes (Proof of Authority)
